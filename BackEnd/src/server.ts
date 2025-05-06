@@ -3,17 +3,17 @@ import fastify from "fastify";
 const app = fastify();
 
 app.get('/teste', () => {
-  return 'rota de teste'
+  return 'Rota de Teste'
 })
 
 app.get('/categorias', () => {
-  return 'lista categorias'
+  return 'Lista Categorias'
 })
 app.get('/produtos', () => {
-  return 'lista produtos'
+  return 'Lista Produtos'
 })
 app.get('/unidades', () => {
-  return 'Lista unidades'
+  return 'Lista Unidades'
 })
 
 
