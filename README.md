@@ -13,8 +13,8 @@
 > [!NOTE]
 Acessar o "https://github.com/tsconfig/bases"<br>
 Dessa a pagina ate encontrar a sua versão do node:<br>
-        Ex: $node -v<br>
-        v22.16.0<br>
+>        Ex: $node -v<br>
+>        v22.16.0<br>
 Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<br>
     |    Node 22    |    @tsconfig/node22    |<br>
 
