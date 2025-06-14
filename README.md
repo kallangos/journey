@@ -11,18 +11,17 @@
 >     npx tsc --init
 
 > ### Acessar o "https://github.com/tsconfig/bases"
-> <p>Dessa a pagina ate encontrar a sua versão do node: </p>
+>     <p>Dessa a pagina ate encontrar a sua versão do node: </p>
 >      Ex: $node -v
 >      v22.16.0
-> <p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
+>     <p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
 >      |    Node 22    |    @tsconfig/node22    |
 
 > ### **🛠️ Edite:   [tsconfig.json]**
->
-> {
->     "$schema": "https://json.schemastore.org/tsconfig",
->     "_version": "22.0.0",
->     "compilerOptions": {
+>     {
+>       "$schema": "https://json.schemastore.org/tsconfig",
+>       "_version": "22.0.0",
+>       "compilerOptions": {
 >       "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
 >       "module": "nodenext",
 >       "target": "es2022",
@@ -30,9 +29,9 @@
 >       "esModuleInterop": true,
 >       "skipLibCheck": true,
 >       "moduleResolution": "node16"
+>       }
 >     }
-> }
->
+
 
 > ### **🛠️ Edite:   [settings.json]**
 ><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
