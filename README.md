@@ -16,8 +16,8 @@
 
 >
 >Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
->Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de nodeJS do projeto [ex: v22.16.0].<br>
->Copie e substitua o conteudo do arquivo 
+>Desça a pagina ate encontrar a sua versão compativel, na coluna [Package] clique no correspondente a versão de nodeJS do projeto [ex: v22.16.0].<br>
+>Esta informação ira Substituir o conteudo do arquivo t[sconfig.json].
 > ##### **🛠️ Edite: [./tsconfig.json].**
 >     {
 >       "$schema": "https://json.schemastore.org/tsconfig",
