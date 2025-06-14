@@ -1,26 +1,24 @@
-# 🚀 Journey [BackEND]
+## 🚀 Journey [BackEND]
 
 > [!NOTE]
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
 
 > ### Extensões: [ Eslint, Prisma ]
 
-> [!IMPORTANT] 
 > ### **🛠️ Pasta : [ ../BackEnd ]**
 >       $ npm init -y
 >       $ npm i typescript @types/node -D
 >       $ npx tsc --init
 
-> [!NOTE]
 > ### Acessar o "https://github.com/tsconfig/bases"
-       Dessa a pagina ate encontrar a sua versão do node:
-             Ex: $node -v 
-             v22.16.0
-       Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].
-             -------------------------------
-             | Node 22	 | @tsconfig/node22 |
-             -------------------------------
-       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
+><p>       Dessa a pagina ate encontrar a sua versão do node: </p>
+>            Ex: $node -v 
+>            v22.16.0
+>      Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].
+>            -------------------------------
+>            | Node 22	 | @tsconfig/node22 |
+>            -------------------------------
+>      Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
 >
 
 > ### **🛠️ Edite:   [tsconfig.json]**
