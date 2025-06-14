@@ -11,7 +11,33 @@
 >       $ npm i typescript @types/node -D
 >       $ npx tsc --init
 
-> [!IMPORTANT] 
+> [!NOTE]
+> ### Acessar o "https://github.com/tsconfig/bases"
+>       Dessa a pagina ate encontrar a sua versão do node:
+>             Ex: $node -v 
+>             v22.16.0
+>       Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].
+>             -------------------------------
+>             | Node 22	 | @tsconfig/node22 |
+>             -------------------------------
+>       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
+> ### **🛠️ Edite:   [tsconfig.json]**
+>{
+>            "$schema": "https://json.schemastore.org/tsconfig",
+>            "_version": "22.0.0",
+>          
+>            "compilerOptions": {
+>              "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+>              "module": "nodenext",
+>              "target": "es2022",
+>          
+>              "strict": true,
+>              "esModuleInterop": true,
+>              "skipLibCheck": true,
+>              "moduleResolution": "node16"
+>            }
+>          }
+>
 > ### **🛠️ Edite:   [settings.json]**
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
@@ -30,12 +56,6 @@
 
 > :warning: **If you are using mobile browser**: Be very careful here!
 
-> [!NOTE]
-> ### Acessar o "https://github.com/tsconfig/bases"
->       Encontre uma configuração básica compatível com sua versão de NODE.
->         ex: Node 22	 = @tsconfig/node22
->       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
->       [tsconfig.json]
 
       $ npm i tsx -D
       Node nao entende Typescript, esse comando permite a transpilação do 
