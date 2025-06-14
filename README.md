@@ -2,22 +2,22 @@
 
 > [!NOTE]
 > ##### 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify.<br>
-> ##### Extensões: Eslint, Prisma
+> ##### Extensões: Eslint, Prisma.
 
-> ##### **🛠️ Pasta : [ ../BackEnd ]**
+> ##### **🛠️ Pasta : [../BackEnd].**
 >     npm init -y
 >     npm i typescript @types/node -D
 >     npx tsc --init
 
-> ##### Crie o arquivo : [ src/server.ts ]
-> ###### **🛠️ Edite: [package.json] adicionando o script**
+> ##### Crie o arquivo : [../src/server.ts].
+> ###### **🛠️ Edite: [./package.json]** adicionando o script de execução.<br> o parâmetro "watch" faz com que ele recompile o server sempre que ele salvo com alterações. Isso também manterá a aplicação rodando indefinidamente. [npm run server]**
 >     "server": "tsx watch src/server.ts"
 
 >
 >Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
 >Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de nodeJS do projeto [ex: v22.16.0].<br>
 
-> ##### **🛠️ Edite:   [tsconfig.json]**
+> ##### **🛠️ Edite: [./tsconfig.json].**
 >     {
 >       "$schema": "https://json.schemastore.org/tsconfig",
 >       "_version": "22.0.0",
