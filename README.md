@@ -4,9 +4,9 @@
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
 
 
-Extensões: [ Eslint, Prisma ]
+> ## Extensões: [ Eslint, Prisma ]
 
-> [!IMPORTANT] "aaassa"
+> [!IMPORTANT] #aaassa
 > Edite:   [settings.json]
 > 
 >          - Eslint:
