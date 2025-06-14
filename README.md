@@ -7,7 +7,7 @@
 > ### Extensões: [ Eslint, Prisma ]
 
 > [!IMPORTANT] 
-> Edite:   [settings.json]
+> ### 🛠️ Edite:   [settings.json]
 > 
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
@@ -20,7 +20,8 @@
 >            },
 >            
 
-> ### Pasta : [ ../BackEnd ]
+> [!IMPORTANT] 
+> ### 🛠️ Pasta : [ ../BackEnd ]
 >
 >       $ npm init -y
 >       $ npm i typescript @types/node -D
