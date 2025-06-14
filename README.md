@@ -46,19 +46,12 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 > ##### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
 >     npm i tsx -D
 
-> ##### Instala o framework [fastify](https://fastify.dev/docs/latest/Guides/Getting-Started/) para usar o nosso backend.
+> ##### Instala o framework [Fastify](https://fastify.dev/docs/latest/Guides/Getting-Started/) que será utilizado no backend.
 >     npm i fastify
 
-      
-      $ npm i fastify
-      Instala o framework fastify para usar o nosso backend.
-      https://fastify.dev/docs/latest/Guides/Getting-Started/
+> ##### Instala o Prisma como dependência de desenvolvimento, para trabalharmos com banco de dados, responsável também pela automatização de manutenções no banco, criação de tabelas/colunas, deforma indireta no banco e tb para escrita de query's no banco.
+>     npm i prisma -D
 
-      $ npm i prisma -D
-      Instala o Prisma como dependencia de desenvolvimento, para trabalharmos 
-      com banco de dados, responsavel tambem pela automatizacao de manutencoes 
-      no banco, criação de tabelas/colunas, deforma indireta no banco e tb para 
-      escrita de query`s no banco.
       
       $ npm prisma init --datasource-provider 
       
