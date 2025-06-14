@@ -10,6 +10,7 @@
 >     npm i typescript @types/node -D
 >     npx tsc --init
 
+> [!NOTE]
 > ### Acessar o "https://github.com/tsconfig/bases"
 >     Dessa a pagina ate encontrar a sua versão do node:
 >      Ex: $node -v
