@@ -10,7 +10,7 @@
 >     npx tsc --init
 
 > ##### Crie o arquivo : [../src/server.ts].
-> **🛠️ Edite: [./package.json]** adicionando o script de execução.<br> o parâmetro "watch" faz com que ele recompile o server sempre que ele salvo com alterações. Isso também manterá a aplicação rodando indefinidamente. [npm run server]**
+> **🛠️ Edite: [./package.json]** adicionando o script de execução.<br> o parâmetro "watch" faz com que ele recompile o server sempre que ele salvo com alterações. Isso também manterá a aplicação rodando indefinidamente. [npm run server]
 >     "server": "tsx watch src/server.ts"
 
 >
