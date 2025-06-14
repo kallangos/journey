@@ -1,6 +1,4 @@
 ## 🚀 Journey [BackEND]
-[!TIP]
-> AXCZDCKJHAJSDLJSAJLDS
 
 > [!NOTE]
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify.<br>
