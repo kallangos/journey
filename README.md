@@ -16,7 +16,7 @@
 >     v22.16.0
 ><p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
 >     |    Node 22    |    @tsconfig/node22    |
->
+
 > ### **🛠️ Edite:   [tsconfig.json]**
 >
 > {
