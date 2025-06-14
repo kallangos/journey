@@ -6,8 +6,7 @@
 
 Extensões: [ Eslint, Prisma ]
 
-> [!IMPORTANT] 
-> Config:   [settings.json]
+> [!IMPORTANT] > Config:   [settings.json]
 > 
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
