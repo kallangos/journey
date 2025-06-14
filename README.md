@@ -6,13 +6,13 @@
 > ### Extensões: [ Eslint, Prisma ]
 
 > [!IMPORTANT] 
-> ### 🛠️ Pasta : [ ../BackEnd ]
+> ### **🛠️ Pasta : [ ../BackEnd ]**
 >       $ npm init -y
 >       $ npm i typescript @types/node -D
 >       $ npx tsc --init
 
-> [!IMPORTANT] 🛠️
-> ### 🛠️ Edite:   [settings.json]
+> [!IMPORTANT] 
+> ### **🛠️ Edite:   [settings.json]**
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
 >              "source.fixAll.eslint": "explicit"
@@ -27,7 +27,7 @@
 
 > [!NOTE]
 > ### Acessar o "https://github.com/tsconfig/bases"
->       Encontre uma configuraçao basica compativel com sua versao de NODE.
+>       Encontre uma configuração básica compatível com sua versão de NODE.
 >         ex: Node 22	 = @tsconfig/node22
 >       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
 >       [tsconfig.json]
