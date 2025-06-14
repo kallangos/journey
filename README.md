@@ -1,22 +1,23 @@
-## 🚀 Journey [BackEND]
+### 🚀 Journey [BackEND]
 
 > [!NOTE]
-> #### 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify.<br>
-> #### Extensões: Eslint, Prisma
+> ##### 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify.<br>
+> ##### Extensões: Eslint, Prisma
 
-> #### **🛠️ Pasta : [ ../BackEnd ]**
+> ##### **🛠️ Pasta : [ ../BackEnd ]**
 >     npm init -y
 >     npm i typescript @types/node -D
 >     npx tsc --init
 
-> #### **🛠️ Edite: [package.json] adicionando o script**
+> ##### **🛠️ Edite: [package.json] adicionando o script**
 >     "dev": "tsx watch src/server.ts"
+>     "apibackend": "tsx watch src/server.ts"
 
 >
 >Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
 >Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de NODE [ex: v22.16.0].<br>
 
-> #### **🛠️ Edite:   [tsconfig.json]**
+> ##### **🛠️ Edite:   [tsconfig.json]**
 >     {
 >       "$schema": "https://json.schemastore.org/tsconfig",
 >       "_version": "22.0.0",
@@ -40,7 +41,7 @@
 > ##### Instala o Prisma como dependência de desenvolvimento, para trabalharmos com banco de dados, responsável também pela automatização de manutenções no banco, criação de tabelas/colunas, deforma indireta no banco e tb para escrita de query's no banco.
 >     npm i prisma -D
 
-> ### **🛠️ Edite:   [settings.json]**
+> ##### **🛠️ Edite:   [settings.json]**
 > ##### Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.
 >     - Eslint:
 >       "editor.codeActionsOnSave": {
@@ -51,16 +52,19 @@
 >       "editor.defaultFormatter": "Prisma.prisma",
 >       "editor.formatOnSave": true
 >       },
+
+
+> ##### Inicia o Prisma definindo qual banco de dados será utilizado no projeto.
+>    * Este projeto esta utilizando o MySQL *
+>    npm prisma init --datasource-provider mysql
       
-      $ npm prisma init --datasource-provider 
-      
-      "dev" : "tsx watch src/server.ts"
+      "server" : "tsx watch src/server.ts"
       Editar o package.json do projeto adicionando a seguinte linha na sessao 
       de scripts. Esta linha define um script nome de "dev", o parametro "watch" 
       faz com que ele recompile o server sempre que ele salvo com alterações. Isso tambem mantera 
       a aplicação rodando indefinidamente.
 
-      $ npm run dev
+      $ npm run server
       Para rodar o server/app/node, basta digitar.
 
 ReadME - Update
