@@ -2,9 +2,7 @@
 
 > [!NOTE]
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
-> #### Extensões: 
->Eslint<br>
->Prisma<br>
+> #### Extensões: Eslint, Prisma
 
 > #### **🛠️ Pasta : [ ../BackEnd ]**
 >     npm init -y
