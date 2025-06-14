@@ -14,7 +14,7 @@
 
 >
 >Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
->Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de NODE [ex: v22.16.0].<br>
+>Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de nodeJS do projeto [ex: v22.16.0].<br>
 
 > ##### **🛠️ Edite:   [tsconfig.json]**
 >     {
@@ -53,8 +53,8 @@
 >       },
 
 
-> ##### Inicia o Prisma definindo qual banco de dados será utilizado no projeto.
->    * Este projeto esta utilizando o MySQL *
+> ##### Inicia o Prisma definindo qual banco de dados será utilizado no projeto. Este projeto esta utilizando o MySQL.
+> As opções são: prisma+postgres, sqlite, postgresql, mysql, sqlserver, mongodb and cockroachdb.
 >    npm prisma init --datasource-provider mysql
       
       "server" : "tsx watch src/server.ts"
