@@ -10,8 +10,7 @@
 >     npx tsc --init
 
 > ##### **🛠️ Edite: [package.json] adicionando o script**
->     "dev": "tsx watch src/server.ts"
->     "apibackend": "tsx watch src/server.ts"
+>     "backend": "tsx watch src/server.ts"
 
 >
 >Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
