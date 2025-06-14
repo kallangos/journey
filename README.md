@@ -1,16 +1,17 @@
 # Node, React, Prisma, TypeScript, Fastify
 
 Extensões: [ Eslint, Prisma ]
-          settings.json
-          - Eslint:
-            "editor.codeActionsOnSave": {
-              "source.fixAll.eslint": "explicit"
-            },
-          - Prisma:
-            "[prisma]": {
-            "editor.defaultFormatter": "Prisma.prisma",
-            "editor.formatOnSave": true
-            },
+
+>Config:          settings.json
+>          - Eslint:
+>            "editor.codeActionsOnSave": {
+>              "source.fixAll.eslint": "explicit"
+>            },
+>          - Prisma:
+>            "[prisma]": {
+>            "editor.defaultFormatter": "Prisma.prisma",
+>            "editor.formatOnSave": true
+>            },
 
 
 ../BackEnd
