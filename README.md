@@ -6,58 +6,52 @@
 > ### Extensões: [ Eslint, Prisma ]
 
 > ### **🛠️ Pasta : [ ../BackEnd ]**
->       $ npm init -y
->       $ npm i typescript @types/node -D
->       $ npx tsc --init
+>npm init -y
+>npm i typescript @types/node -D
+>npx tsc --init
 
 > ### Acessar o "https://github.com/tsconfig/bases"
-><p>       Dessa a pagina ate encontrar a sua versão do node: </p>
->            Ex: $node -v
->            v22.16.0
-><p>      Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
->            |    Node 22    |    @tsconfig/node22    |
+><p>Dessa a pagina ate encontrar a sua versão do node: </p>
+>     Ex: $node -v
+>     v22.16.0
+><p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
+>     |    Node 22    |    @tsconfig/node22    |
 >
 > ### **🛠️ Edite:   [tsconfig.json]**
->       {
->            "$schema": "https://json.schemastore.org/tsconfig",
->            "_version": "22.0.0",
->            "compilerOptions": {
->              "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
->              "module": "nodenext",
->              "target": "es2022",
->          
->              "strict": true,
->              "esModuleInterop": true,
->              "skipLibCheck": true,
->              "moduleResolution": "node16"
->            }
->        }
->
+>{
+>     "$schema": "https://json.schemastore.org/tsconfig",
+>     "_version": "22.0.0",
+>     "compilerOptions": {
+>       "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+>       "module": "nodenext",
+>       "target": "es2022",
+>   
+>       "strict": true,
+>       "esModuleInterop": true,
+>       "skipLibCheck": true,
+>       "moduleResolution": "node16"
+>     }
+>}
+
 > ### **🛠️ Edite:   [settings.json]**
-><p>       Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma</p>
->          
->          - Eslint:
->            "editor.codeActionsOnSave": {
->              "source.fixAll.eslint": "explicit"
->            },
->          - Prisma:
->            "[prisma]": {
->            "editor.defaultFormatter": "Prisma.prisma",
->            "editor.formatOnSave": true
->            },
->          
+><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
+>   
+>- Eslint:
+>  "editor.codeActionsOnSave": {
+>    "source.fixAll.eslint": "explicit"
+>  },
+>- Prisma:
+>  "[prisma]": {
+>  "editor.defaultFormatter": "Prisma.prisma",
+>  "editor.formatOnSave": true
+>  },
+>   
 
-> [!Observação]
-> 
-> 
+> ### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
+>
+>
+>     npm i tsx -D
 
-
-> :warning: **If you are using mobile browser**: Be very careful here!
-
-
-      $ npm i tsx -D
-      Node nao entende Typescript, esse comando permite a transpilação do 
-      typescript para javascript {instalado como dep. de desenvolvimento}.
       
       $ npm i fastify
       Instala o framework fastify para usar o nosso backend.
