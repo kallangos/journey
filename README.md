@@ -44,9 +44,11 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 >       },
 
 > ##### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
->
->
 >     npm i tsx -D
+
+> ##### Instala o framework fastify para usar o nosso backend.
+https://fastify.dev/docs/latest/Guides/Getting-Started/
+>     npm i fastify
 
       
       $ npm i fastify
