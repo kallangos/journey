@@ -11,12 +11,12 @@
 >     npx tsc --init
 
 > [!NOTE]
-Acessar o "https://github.com/tsconfig/bases"
-Dessa a pagina ate encontrar a sua versão do node:
-    Ex: $node -v
-    v22.16.0
-Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].
-    |    Node 22    |    @tsconfig/node22    |
+Acessar o "https://github.com/tsconfig/bases"<br>
+Dessa a pagina ate encontrar a sua versão do node:<br>
+    Ex: $node -v<br>
+    v22.16.0<br>
+Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<br>
+    |    Node 22    |    @tsconfig/node22    |<br>
 
 > ### **🛠️ Edite:   [tsconfig.json]**
 >     {
