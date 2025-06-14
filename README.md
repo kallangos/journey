@@ -18,9 +18,10 @@ Extensões: [ Eslint, Prisma ]
 >
 
 ../BackEnd
-      $ npm init -y
-      $ npm i typescript @types/node -D
-      $ npx tsc --init
+>
+>       $ npm init -y
+>       $ npm i typescript @types/node -D
+>       $ npx tsc --init
 
       Acessar o "https://github.com/tsconfig/bases"
         Encontre uma configuraçao basica compativel com sua versao de NODE.
@@ -53,3 +54,4 @@ Extensões: [ Eslint, Prisma ]
       $ npm run dev
       Para rodar o server/app/node, basta digitar.
 
+ReadME - Update
