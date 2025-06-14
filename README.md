@@ -11,10 +11,9 @@
 >     npm i typescript @types/node -D
 >     npx tsc --init
 
-> [!NOTE]
-Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node<br>
-Desça a pagina ate encontrar a sua versão do node:<br>
-Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<br>
+>
+>Acessar a pagina [TypeScript Config Bases](https://github.com/tsconfig/bases) para tornar TypeScript compatível com sua versão de node.<br>
+>Desça a pagina ate encontrar a sua versão do node, na coluna [Package] clique no correspondente a versão de NODE [ex: v22.16.0].<br>
 
 > ### **🛠️ Edite:   [tsconfig.json]**
 >     {
