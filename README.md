@@ -56,7 +56,8 @@
 > ##### Inicia o Prisma definindo qual banco de dados será utilizado no projeto. Este projeto esta utilizando o MySQL.
 > As opções são: 
 > #### prisma+postgres, sqlite, postgresql, mysql, sqlserver, mongodb e cockroachdb.
->    npm prisma init --datasource-provider mysql
+>
+>     npm prisma init --datasource-provider mysql
       
       "server" : "tsx watch src/server.ts"
       Editar o package.json do projeto adicionando a seguinte linha na sessao 
