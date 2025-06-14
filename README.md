@@ -32,7 +32,7 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 
 
 > ### **🛠️ Edite:   [settings.json]**
-><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
+>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.
 >     - Eslint:
 >       "editor.codeActionsOnSave": {
 >         "source.fixAll.eslint": "explicit"
