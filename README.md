@@ -23,7 +23,9 @@
 >            "editor.formatOnSave": true
 >            },
 
-> [!IMPORTANTE]
+> [!Observação]
+> 
+> 
 
 > [!NOTE]
 > ### Acessar o "https://github.com/tsconfig/bases"
