@@ -2,7 +2,6 @@
 
 > [!NOTE]
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
-> 
 > #### Extensões: 
 > -     Eslint
 > -     Prisma
