@@ -9,7 +9,8 @@
 >     npm i typescript @types/node -D
 >     npx tsc --init
 
-> ##### **🛠️ Edite: [package.json] adicionando o script**
+> ##### Crie o arquivo : [ src/server.ts ]
+> ###### **🛠️ Edite: [package.json] adicionando o script**
 >     "server": "tsx watch src/server.ts"
 
 >
