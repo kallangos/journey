@@ -18,7 +18,7 @@
 >     |    Node 22    |    @tsconfig/node22    |
 >
 > ### **🛠️ Edite:   [tsconfig.json]**
->{
+> {
 >     "$schema": "https://json.schemastore.org/tsconfig",
 >     "_version": "22.0.0",
 >     "compilerOptions": {
@@ -31,7 +31,7 @@
 >       "skipLibCheck": true,
 >       "moduleResolution": "node16"
 >     }
->}
+> }
 
 > ### **🛠️ Edite:   [settings.json]**
 ><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
