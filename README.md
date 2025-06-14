@@ -33,6 +33,12 @@
 >     }
 
 
+[NOTE]
+sasdsa
+ddasd
+a
+[/NOTE]
+
 > ### **🛠️ Edite:   [settings.json]**
 ><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
 >   
