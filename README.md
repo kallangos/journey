@@ -13,10 +13,7 @@
 > [!NOTE]
 Acessar o "https://github.com/tsconfig/bases"<br>
 Dessa a pagina ate encontrar a sua versão do node:<br>
->        Ex: $node -v<br>
->        v22.16.0<br>
 Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<br>
-    |    Node 22    |    @tsconfig/node22    |<br>
 
 > ### **🛠️ Edite:   [tsconfig.json]**
 >     {
@@ -34,24 +31,19 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 >     }
 
 
-> [!NOTE]
-sasdsa<br>
-ddasd
-a
-
 > ### **🛠️ Edite:   [settings.json]**
 ><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
 >   
->- Eslint:
->  "editor.codeActionsOnSave": {
->    "source.fixAll.eslint": "explicit"
->  },
->- Prisma:
->  "[prisma]": {
->  "editor.defaultFormatter": "Prisma.prisma",
->  "editor.formatOnSave": true
->  },
->   
+>     - Eslint:
+>       "editor.codeActionsOnSave": {
+>         "source.fixAll.eslint": "explicit"
+>       },
+>     - Prisma:
+>       "[prisma]": {
+>       "editor.defaultFormatter": "Prisma.prisma",
+>       "editor.formatOnSave": true
+>       },
+>     
 
 > ### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
 >
