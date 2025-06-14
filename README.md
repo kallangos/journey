@@ -6,16 +6,16 @@
 > ### Extensões: [ Eslint, Prisma ]
 
 > ### **🛠️ Pasta : [ ../BackEnd ]**
->npm init -y
->npm i typescript @types/node -D
->npx tsc --init
+> npm init -y
+> npm i typescript @types/node -D
+> npx tsc --init
 
 > ### Acessar o "https://github.com/tsconfig/bases"
-><p>Dessa a pagina ate encontrar a sua versão do node: </p>
->     Ex: $node -v
->     v22.16.0
-><p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
->     |    Node 22    |    @tsconfig/node22    |
+> <p>Dessa a pagina ate encontrar a sua versão do node: </p>
+>      Ex: $node -v
+>      v22.16.0
+> <p>Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
+>      |    Node 22    |    @tsconfig/node22    |
 
 > ### **🛠️ Edite:   [tsconfig.json]**
 >
