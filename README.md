@@ -6,9 +6,9 @@
 > ### Extensões: [ Eslint, Prisma ]
 
 > ### **🛠️ Pasta : [ ../BackEnd ]**
->   npm init -y
->   npm i typescript @types/node -D
->   npx tsc --init
+>     npm init -y
+>     npm i typescript @types/node -D
+>     npx tsc --init
 
 > ### Acessar o "https://github.com/tsconfig/bases"
 > <p>Dessa a pagina ate encontrar a sua versão do node: </p>
