@@ -35,9 +35,7 @@
 
 > [!NOTE]
 sasdsa
-
 ddasd
-
 a
 
 > ### **🛠️ Edite:   [settings.json]**
