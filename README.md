@@ -34,6 +34,7 @@
 >        }
 >
 > ### **🛠️ Edite:   [settings.json]**
+><p>       Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma</p>
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
 >              "source.fixAll.eslint": "explicit"
