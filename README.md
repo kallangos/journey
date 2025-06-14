@@ -33,7 +33,6 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 
 > ### **🛠️ Edite:   [settings.json]**
 ><p>Forçar organizaçao do codigo pelo Eslint e arquvios .prisma pelo formatador do Prisma.</p>
->   
 >     - Eslint:
 >       "editor.codeActionsOnSave": {
 >         "source.fixAll.eslint": "explicit"
@@ -43,9 +42,8 @@ Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].<
 >       "editor.defaultFormatter": "Prisma.prisma",
 >       "editor.formatOnSave": true
 >       },
->     
 
-> ### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
+> ##### Node nao entende Typescript, esse comando permite a transpilação do typescript para javascript {instalado como dep. de desenvolvimento}.
 >
 >
 >     npm i tsx -D
