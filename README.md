@@ -1,8 +1,10 @@
 ## 🚀 Journey [BackEND]
+[!DICA]
+>
 
 > [!NOTE]
-> 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
-> Extensões: #### Eslint, Prisma
+> 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify.<br>
+> #### Extensões: Eslint, Prisma
 
 > #### **🛠️ Pasta : [ ../BackEnd ]**
 >     npm init -y
