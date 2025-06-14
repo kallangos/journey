@@ -27,6 +27,9 @@
 > 
 > 
 
+
+> :warning: **If you are using mobile browser**: Be very careful here!
+
 > [!NOTE]
 > ### Acessar o "https://github.com/tsconfig/bases"
 >       Encontre uma configuração básica compatível com sua versão de NODE.
