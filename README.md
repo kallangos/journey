@@ -12,15 +12,11 @@
 
 > ### Acessar o "https://github.com/tsconfig/bases"
 ><p>       Dessa a pagina ate encontrar a sua versão do node: </p>
-><p>            Ex: $node -v </p>
-><p>            v22.16.0</p>
+>            Ex: $node -v
+>            v22.16.0
 ><p>      Na coluna [Package] clique no que corresponde a versão de NODE [ex: v22.16.0].</p>
-><p>            -------------------------------</p>
-><p>            | Node 22	 | @tsconfig/node22 |</p>
-><p>            -------------------------------</p>
-><p>      Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu </p>
+>            |    Node 22    |    @tsconfig/node22    |
 >
-
 > ### **🛠️ Edite:   [tsconfig.json]**
 >       {
 >            "$schema": "https://json.schemastore.org/tsconfig",
