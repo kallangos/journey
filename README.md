@@ -20,20 +20,7 @@
 >            },
 >            
 
->Config:   [settings.json]
->
->          - Eslint:
->            "editor.codeActionsOnSave": {
->              "source.fixAll.eslint": "explicit"
->            },
->          - Prisma:
->            "[prisma]": {
->            "editor.defaultFormatter": "Prisma.prisma",
->            "editor.formatOnSave": true
->            },
->
-
-../BackEnd
+> ### Pasta : [ ../BackEnd ]
 >
 >       $ npm init -y
 >       $ npm i typescript @types/node -D
