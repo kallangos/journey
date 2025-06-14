@@ -1,8 +1,11 @@
-# Node, React, Prisma, TypeScript, Fastify
+# 🚀 Journey [BackEND]
+
+📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
 
 Extensões: [ Eslint, Prisma ]
 
->Config:          settings.json
+>Config:   [settings.json]
+>
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
 >              "source.fixAll.eslint": "explicit"
@@ -12,7 +15,7 @@ Extensões: [ Eslint, Prisma ]
 >            "editor.defaultFormatter": "Prisma.prisma",
 >            "editor.formatOnSave": true
 >            },
-
+>
 
 ../BackEnd
       $ npm init -y
