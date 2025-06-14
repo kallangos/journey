@@ -3,12 +3,16 @@
 > [!NOTE]
 > 📋 Pré-requisitos: Node, React, Prisma, TypeScript, Fastify
 
-
 > ### Extensões: [ Eslint, Prisma ]
 
 > [!IMPORTANT] 
+> ### 🛠️ Pasta : [ ../BackEnd ]
+>       $ npm init -y
+>       $ npm i typescript @types/node -D
+>       $ npx tsc --init
+
+> [!IMPORTANT] 
 > ### 🛠️ Edite:   [settings.json]
-> 
 >          - Eslint:
 >            "editor.codeActionsOnSave": {
 >              "source.fixAll.eslint": "explicit"
@@ -18,20 +22,15 @@
 >            "editor.defaultFormatter": "Prisma.prisma",
 >            "editor.formatOnSave": true
 >            },
->            
 
-> [!IMPORTANT] 
-> ### 🛠️ Pasta : [ ../BackEnd ]
->
->       $ npm init -y
->       $ npm i typescript @types/node -D
->       $ npx tsc --init
+> [!IMPORTANTE]
 
-      Acessar o "https://github.com/tsconfig/bases"
-        Encontre uma configuraçao basica compativel com sua versao de NODE.
-          ex: Node 22	 = @tsconfig/node22
-        Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
-        [tsconfig.json]
+> [!NOTE]
+> ### Acessar o "https://github.com/tsconfig/bases"
+>       Encontre uma configuraçao basica compativel com sua versao de NODE.
+>         ex: Node 22	 = @tsconfig/node22
+>       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
+>       [tsconfig.json]
 
       $ npm i tsx -D
       Node nao entende Typescript, esse comando permite a transpilação do 
