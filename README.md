@@ -61,13 +61,4 @@
 >
 >     npm prisma init --datasource-provider mysql
       
-      "server" : "tsx watch src/server.ts"
-      Editar o package.json do projeto adicionando a seguinte linha na sessao 
-      de scripts. Esta linha define um script nome de "dev", o parametro "watch" 
-      faz com que ele recompile o server sempre que ele salvo com alterações. Isso tambem mantera 
-      a aplicação rodando indefinidamente.
-
-      $ npm run server
-      Para rodar o server/app/node, basta digitar.
-
-ReadME - Update
+*ReadME - Update*
