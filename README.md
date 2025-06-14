@@ -22,10 +22,9 @@
 >             -------------------------------
 >       Copie e substitua pelo que tiver sido criado pelo [tsc --init] no seu 
 > ### **🛠️ Edite:   [tsconfig.json]**
->{
+>       {
 >            "$schema": "https://json.schemastore.org/tsconfig",
 >            "_version": "22.0.0",
->          
 >            "compilerOptions": {
 >              "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
 >              "module": "nodenext",
@@ -36,7 +35,7 @@
 >              "skipLibCheck": true,
 >              "moduleResolution": "node16"
 >            }
->          }
+>        }
 >
 > ### **🛠️ Edite:   [settings.json]**
 >          - Eslint:
